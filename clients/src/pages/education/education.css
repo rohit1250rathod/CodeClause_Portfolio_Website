@@ -1,0 +1,48 @@
+.education{
+    padding: 0 15%;
+}
+.education h1{
+    text-align: center;
+    font-size: 27px;
+}
+.eduflex{
+    border: 1px solid rgb(185, 185, 185);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin: 5px;
+}
+.schoolimg{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin-right: 40px;
+    border-radius: 50%;
+    border: 1px solid rgb(167, 167, 167);
+}
+.schoolimg span{
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    color: rgb(83, 83, 83);
+    position: relative;
+    top: 10px;
+    left: 15px;
+    /* padding: 40%; */
+    text-align: center;
+}
+.schoolimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.schoolname{
+    width: 45%;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+.schoolyear{
+    width: 15%;
+    padding: 10px;
+}
