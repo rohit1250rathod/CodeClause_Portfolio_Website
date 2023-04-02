@@ -28,7 +28,7 @@ export default function Education(){
                     <span className="uni"><FaUniversity/></span>
                     </div>
                     <div className="schoolname">
-                        <h3>XYZ University</h3>
+                        <h3>XYZ College</h3>
                         <h5>Field</h5>
                     </div>
                     <div className="schoolyear">
@@ -43,7 +43,7 @@ export default function Education(){
                     <span className="uni"><FaUniversity/></span>
                     </div>
                     <div className="schoolname">
-                        <h3>XYZ University</h3>
+                        <h3>XYZ School</h3>
                         <h5>Field</h5>
                     </div>
                     <div className="schoolyear">

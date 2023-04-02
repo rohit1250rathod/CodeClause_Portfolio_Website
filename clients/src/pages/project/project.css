@@ -1,0 +1,67 @@
+.project{
+    padding: 10px 10%;
+    background-color: rgb(51, 10, 75);
+    padding-bottom: 30px;
+}
+.project h2{
+    text-align: center;
+    color: white;
+}
+.projectflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 80%; */
+}
+.projectbox{
+    width: 250px;
+    margin: 15px 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid rgb(207, 207, 207); */
+    
+}
+.porjectimg{
+    /* position: absolute; */
+    width: 250px;
+    height: 200px;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+.porjectimg img{
+    width: 100%;
+    height: 100%;
+}
+.projectcont{
+    position: absolute;
+    opacity: 0;
+    width: 250px;
+    padding-top: 20px;
+    height: 180px;
+    color: white;
+    background-color: rgba(0,0,0,0.75);
+    transition: opacity 0.3s ease-in-out;
+}
+.projectcont:hover{
+    opacity: 0.9;
+}
+.projectimg:hover{
+    opacity: 0.3;
+}
+.projbut{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.projbut button{
+    width: 100px;
+    height: 35px;
+
+}
+.projbut span{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+}

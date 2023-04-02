@@ -1,0 +1,36 @@
+.servicesflex{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.services{
+    margin: 40px 10%;
+}
+.services h2{
+    text-align: center;
+    margin: 0;
+}
+.servicesbox{
+    padding: 40px 0;
+    width: 25%;
+    border: 1px solid rgb(238, 238, 238);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px 3px rgb(167, 167, 167);
+    border-radius: 20px;
+}
+.servicesicon{
+    text-align: center;
+}
+.servicescont{
+    padding: 0 50px;
+}
+.hr{
+    width: 10%;
+    height: 4px;
+    color: black;
+    background-color: black;
+}
+.servicesicon svg{
+    width: 40px;
+    height: 40px;
+}

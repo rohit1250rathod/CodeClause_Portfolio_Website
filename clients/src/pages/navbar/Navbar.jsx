@@ -10,12 +10,13 @@ export default function Navbar(){
                 </div>
             <nav className="nav">
             <ul>
-                <Link to=""><li>Home</li></Link>
-                <Link to=""><li>Education</li></Link>
-                <Link to=""><li>Awards</li></Link>
-                <Link to=""><li>Project</li></Link>
-                <Link to=""><li>Experience</li></Link>
-                <Link to=""><li>Contact</li></Link>                
+                <Link to="/"><li>Home</li></Link>
+                <Link to="/blog"><li>My blog</li></Link>
+                <Link to="/award"><li>Awards</li></Link>
+                <Link to="/project"><li>Project</li></Link>
+                {/* <Link to=""><li>Experience</li></Link> */}
+                <Link to="/contact
+                "><li>Contact</li></Link>                
             </ul>
             </nav>
             </div>

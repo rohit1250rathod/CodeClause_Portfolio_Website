@@ -1,0 +1,43 @@
+.awards{
+    margin: 30px 10%;
+    min-height: 310px;
+}
+.awards h1{
+    text-align: center;
+}
+.awardflex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}
+.awardbox{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid rgb(180, 180, 180);
+    padding: 0 10px;
+
+}
+.awardicon,.awarddate,.awardpart{
+    width: 15%;
+}
+.awardname{
+    width: 45%;
+}
+.awarddate h3,.awarddate h4{
+    margin: 0;
+}
+.awardicon span{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: gold;
+}
+.awarddate h3{
+    background-color: black;
+    color: white;
+    width: 45px;
+    padding: 5px;
+}
